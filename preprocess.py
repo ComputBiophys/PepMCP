@@ -107,6 +107,5 @@ def seq_split(output_dir, seqs, labels, names):
         torch.save(output, output_path)
 
 
-# res_split('../data/res_split/', pos_seqs+neg_seqs, pos_labels+neg_labels, pos_names+neg_names)
+res_split('../data/res_split/', pos_seqs+neg_seqs, pos_labels+neg_labels, pos_names+neg_names)
 seq_split('../data/seq_split/', pos_seqs+neg_seqs, pos_labels+neg_labels, pos_names+neg_names)
-# seq_split('../data/seq_split/', pos_seqs, pos_labels, pos_names)
