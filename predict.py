@@ -70,7 +70,7 @@ if __name__ == '__main__':
     best_model.load_state_dict(torch.load('model/Fold_1_res_best_model.pth'))
     best_model.to(device)
     
-    pred_data = load_data('../data/test18.csv')
+    pred_data = load_data('../data/test.csv')
     pred_dataset = PredictDataset(pred_data, edge_k)
 
     pred_loader = DataLoader(pred_dataset, batch_size=batch_size, shuffle=False, collate_fn=dgl.batch)
