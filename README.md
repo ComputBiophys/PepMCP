@@ -1,13 +1,15 @@
 # PepMCP
 a peptide-specific MCP predictor using GraphSAGE
 
+[PepMCP server](http://www.songlab.cn/PepMCP/Introduction/)
+
 ![image](https://github.com/ruihan-dong/PepMCP/blob/main/framework.png)
 
 
 ## Requirements
 ### ESMC environment
 * python == 3.12
-* pytorch 
+* pytorch == 2.7
 * [esm](https://pypi.org/project/esm/)
 * transformers
 ### PepMCP environment
@@ -37,4 +39,4 @@ python train.py
 ```
 
 ## Citation
-To be updated
+R. Dong, T. Awang, Q. Cao, K. Kang, L. Wang, Z. Zhu, and C. Song. A Graph-Based Membrane Contact Probability Predictor for Membrane-Lytic Antimicrobial Peptides, 2026.
